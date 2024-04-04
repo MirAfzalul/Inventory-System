@@ -1,6 +1,7 @@
 // import { Link } from "react-router-dom"
-import Navbar from "./assets/componenets/Navbar"
+
 import SideBar from "./assets/componenets/SideBar"
+import ProductList from "./assets/pages/ProductList"
 
 
 
@@ -9,8 +10,9 @@ function App() {
 
   return (
     <>
-     <Navbar/>
-     <SideBar/>
+  
+     {/* <SideBar/> */}
+     <ProductList/>
 
     </>
   )
